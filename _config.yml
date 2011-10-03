@@ -1,0 +1,6 @@
+markdown: redcarpet
+permalink: /:year/:month/:title
+
+server: true
+server_port: 4000
+

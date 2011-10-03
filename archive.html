@@ -1,0 +1,21 @@
+---
+layout: default
+title: Archive
+---
+
+<div class="archive">
+	<h1 class="title">Archive</h1>
+	<ul class="posts-list">
+		{% for post in site.posts %}
+			<li>
+				<h3 class="post-title">
+					<a href="{{ post.url }}">{{ post.title }}</a>
+				</h3>
+				<div class="post-excerpt">
+					{{ post.content | strip_html | strip_newlines | truncatewords: 90 }}
+				</div>
+				<a href="{{ post.url }}">Continue reading...</a>
+			</li>
+		{% endfor %}
+	</ul>
+</div>
