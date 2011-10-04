@@ -12,9 +12,8 @@ title: Archive
 					<a href="{{ post.url }}">{{ post.title }}</a>
 				</h3>
 				<div class="post-excerpt">
-					{{ post.content | strip_html | strip_newlines | truncatewords: 90 }}
+					{{ post.content | strip_html | strip_newlines | truncatewords: 50 }}
 				</div>
-				<a href="{{ post.url }}">Continue reading...</a>
 			</li>
 		{% endfor %}
 	</ul>
