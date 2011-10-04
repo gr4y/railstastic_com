@@ -16,8 +16,8 @@ h4 { font-size: 18px; }
 h5 { font-size: 16px; }
 h6 { font-size: 14px; }
 
-a { color: #666; text-decoration: none; }
-a:hover { color: #000; text-decoration: underline; }
+a { color: #000; text-decoration: none; }
+a:hover { color: #FF8700; text-decoration: underline; }
 strong { font-weight: 800; }
 
 #wrapper {
@@ -43,6 +43,14 @@ strong { font-weight: 800; }
 	margin: 0 10px;
 }
 
+#navigation ul li a { 
+	color: #666; 
+}
+
+#navigation ul li a:hover {
+	color: #000; 
+}
+
 #content {
 	margin: 20px 0;
 	padding: 10px 20px;
@@ -50,13 +58,10 @@ strong { font-weight: 800; }
 
 #content .post {
 	padding-bottom: 10px;
-	margin-bottom: 10px;
+	margin: 20px 0;
 	border-bottom: 1px dotted #999;
 
 }
-
-#content a { color: #000; }
-#content a:hover { color: #FF8700 !important; }
 
 #content .post .title {
 	margin-bottom: 5px;
@@ -80,7 +85,8 @@ strong { font-weight: 800; }
 }
 
 #content .archive li {
-	padding-bottom: 10px;
+	margin: 20px 0;
+	padding-bottom: 20px;
 	border-bottom: 1px dotted #999;
 }
 
