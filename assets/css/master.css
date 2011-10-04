@@ -56,6 +56,14 @@ strong { font-weight: 800; }
 	padding: 10px 20px;
 }
 
+#content .post .text a {
+	color: #FF8700;
+}
+
+#content .post .text a:hover {
+	color: #333;
+}
+
 #content .post {
 	padding-bottom: 10px;
 	margin: 20px 0;
